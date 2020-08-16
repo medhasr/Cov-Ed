@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cov-Ed</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css%22%3E>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Russo+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+      body { padding-left: 0px;
+        background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1361.25&fit=crop&crop=faces");  
+      }
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    
+    <section class="menu">
+		<div class="navbar">
+      <!-- <img src = 
+        "" class = "logo"> -->
+			  <div><a class="title" href= "index.html"> Cov-Ed</a></div>
+				<div><a class="option" href= "index.html">Home</a></div>
+        <div class = "dropdown">
+        <a class="dropbtn">Tips
+          <i class="dropdown"></i>
+        </a>
+        <div class="dropdown-content">
+          <a href="tips-precautions.html">Precautions</a>
+          <a href="tips-faq.html">FAQs</a>
+          <a href="tips-health.html">Physical + Mental Health</a>
+        </div>
+        </div>
+        <div><a class = "option" href= "take-action.html">Take Action</a></div>
+        <div><a class="about" href= "about.html">About</a></div>
+		</div>
+    <div class = "home-page">
+      <h1 class = "title-home"> Cov-Ed </h1>
+      <h4> Tips, resources, and information all in one place! </h4>
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="https://static.wixstatic.com/media/fa0c45_5c0cce25b37f4157a49dc15e4c237638~mv2.jpg/v1/fill/w_945,h_530,al_c,q_90/fa0c45_5c0cce25b37f4157a49dc15e4c237638~mv2.jpg" style="width:100%">
+      <div class = "text1"> It is extremely important to follow precautions to avoid possibilities of contracting the COVID-19 virus. Click "Learn More" to learn the ways you can help us flatten the curve!</div>
+      <div class="text">
+        <button type ="button" class = "button1"><a href = "tips-precautions.html"> Learn More </a></button></div>
+      </div>
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="https://m.economictimes.com/thumb/msid-74479370,width-1200,height-900,resizemode-4,imgsize-53268/sanitizers.jpg" style="width:100%">
+    <div class = "text2"> The pandemic has affected millions of people all around the world. Click the button to find out more information regarding how to help health care workers!</div>
+    <div class="text"><button type ="button" class = "button2"> <a href= "take-action.html">Learn More</a> </button></div>
+    </div>
+
+
+  <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+<!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
+  <script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!-- <h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p> -->
+<!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

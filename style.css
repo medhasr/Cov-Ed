@@ -1,0 +1,476 @@
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+body {
+  font-family: 'Alata', sans-serif;
+  background: url("background.jpg");
+  /* background-color: red; */
+}
+.navbar .title{
+  float: left;
+  font-size: 30px;
+  margin-top:20px;
+ font-family: 'Varela Round', sans-serif;
+ margin-left: 20px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 9, 133);
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:1;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  display:inline;
+
+}
+.option{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.about{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.dropdown {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 340px;
+}
+.dropbtn {
+  background-color: rgb(175, 76, 76);
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 30px;
+
+}
+.title:hover{
+  background-color: rgb(0, 9, 133);
+  color:white;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(250, 241, 241);
+    padding: 10px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    float: center;
+    margin-left: 15px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(248, 248, 248);
+  color:black;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  /* min-width: 120px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width:100%;
+  margin-top: 40px;
+
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* width: 100%; */
+}
+
+section{
+  margin-top: 120px;
+}
+/* home css */
+.title-home{
+  font-family: 'Russo One', sans-serif;
+  font-size: 130px;
+  text-align:center;
+  text-shadow:8px 8px 8px rgba(255, 197, 8, 0.966), 4px 4px 0 rgb(153, 73, 86);
+}
+.title-home:hover{
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px rgb(248, 204, 8), 
+                2px 2px #fe4902, 
+                3px 3px #fe4902,
+}
+h4{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  text-align:center;
+  
+}
+
+/* about css */
+.row{
+  float:center;
+}
+.column {
+  float: left;
+  width: 35%;
+  margin-bottom: 16px;
+  padding: 0 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(51, 51, 156);
+  margin: 10px;
+  padding: 20px;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(51, 51, 156);
+}
+.container {
+  padding: 0px;
+ 
+}
+.about-us-title{
+  padding: 10px;
+  text-align:center;
+  color:black;
+  font-size: 40px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.about-us-excerpt{
+  font-size:20px;
+  text-align:center;
+  padding: 0px;
+  
+}
+.aboutdesc {
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.who-i-am{
+  color: rgba(0, 0, 0, 0.616);
+  font-style: italics;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/* precautions css */
+.intro{
+  font-size: 20px;
+  font-style:italic;
+  text-align:center;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+.pagetitle{
+  font-size: 40px;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  text-align:left;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: 'Alata', sans-serif;
+}
+.mask{
+  width:100%;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+.imageprecautiontips {
+  margin-right: 10px;
+  margin-left: 100px;
+  
+}
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Alata', sans-serif;
+  font-size: 18px;
+}
+li { 
+  margin-left: 100px;
+  font-family: 'Alata', sans-serif;
+  font-size: 16px;
+}
+.healthpics {
+  margin-left: 100px;
+
+}
+.fruitpics{ 
+  margin-left: 100px;
+  width: 45%;
+  height: 45%;
+ 
+
+}
+.listhealth {
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+  
+}
+/* health */
+/* collapsible css */
+
+.faq-title{
+  font-size: 40px;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+}
+.faq-info{
+   font-size: 20px;
+  font-style:italic;
+  text-align:center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.collapsible {
+  background-color:rgb(95, 95, 121);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.takeactionlist { 
+  font-size: 20px;
+  font-family: 'Alata', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.button1{
+  display:inline-block;
+  border: black;
+  background-color: transparent;
+  border-style:solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform:uppercase;
+  position: absolute;
+  bottom:150px;
+  left: 420px;
+}
+.button1:hover{
+  background-color:white;
+  color:black;
+}
+.button2:hover{
+  background-color:white;
+  color:black;
+}
+.button2{
+  display:inline-block;
+  border: black;
+  background-color: transparent;
+  border-style:solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform:uppercase;
+  position: absolute;
+  bottom:270px;
+  left: 420px;
+}
+.text2{
+  color: black;
+  font-size: 30px;
+  font-family: 'Varela Round', sans-serif;
+  line-height:1.7em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 400px;
+  left: 200px;
+  width: 600px;
+  text-align: center;
+  font-weight:bold;
+}
+.text1{
+  color: black;
+  font-size: 25px;
+  font-family: 'Varela Round', sans-serif;
+  line-height:1.7em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 250px;
+  left: 200px;
+  width: 600px;
+  text-align: center;
+  font-weight:bold;
+}
+.button1 a{
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+}
+.button2 a{
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+}
+.tips_precautions{ 
+  margin-right: 100px;
+}
